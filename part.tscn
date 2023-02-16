@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://part.gd" type="Script" id=1]
+
+[node name="part" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+rect_scale = Vector2( 1.5, 1.5 )
+text = "+1"
